@@ -1,0 +1,35 @@
+﻿# Workflow Status Template
+# This tracks progress through BMM methodology phases
+# Phase 3/4 (Implementation) is tracked separately in sprint-status.yaml
+
+# generated: 2025-11-11
+# project: botfleet
+# project_type: software
+# selected_track: method
+# field_type: greenfield
+# workflow_path: method-greenfield.yaml
+
+generated: "2025-11-11"
+project: "botfleet"
+project_type: "software"
+selected_track: "method"
+field_type: "greenfield"
+workflow_path: "method-greenfield.yaml"
+
+workflow_status:
+  # Phase 0: Discovery (Optional)
+  brainstorm-project: docs/brainstorming-session-results-2025-11-11.md  # agent: analyst
+  product-brief: docs/bmm-product-brief-botfleet-2025-11-11.md  # agent: analyst
+
+  # Phase 1: Planning
+  prd: required  # agent: pm
+  validate-prd: optional  # agent: pm
+  create-design: conditional  # agent: ux-designer
+
+  # Phase 2: Solutioning  
+  create-architecture: required  # agent: architect
+  validate-architecture: optional  # agent: architect
+  solutioning-gate-check: required  # agent: architect
+
+  # Phase 3: Implementation
+  sprint-planning: required  # agent: sm
