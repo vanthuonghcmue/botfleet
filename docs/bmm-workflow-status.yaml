@@ -23,7 +23,7 @@ workflow_status:
 
   # Phase 1: Planning
   prd: docs/PRD.md  # agent: pm
-  validate-prd: optional  # agent: pm
+  validate-prd: docs/PRD-validation.md  # agent: pm
   create-design: conditional  # agent: ux-designer
 
   # Phase 2: Solutioning  
