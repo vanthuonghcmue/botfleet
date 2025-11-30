@@ -29,7 +29,7 @@ workflow_status:
   # Phase 2: Solutioning  
   create-architecture: docs/architecture.md  # agent: architect
   validate-architecture: optional  # agent: architect
-  solutioning-gate-check: required  # agent: architect
+  solutioning-gate-check: docs/solutioning-gate-check.md  # agent: architect
 
   # Phase 3: Implementation
   sprint-planning: required  # agent: sm
