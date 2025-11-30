@@ -22,7 +22,7 @@ workflow_status:
   product-brief: docs/bmm-product-brief-botfleet-2025-11-11.md  # agent: analyst
 
   # Phase 1: Planning
-  prd: required  # agent: pm
+  prd: docs/PRD.md  # agent: pm
   validate-prd: optional  # agent: pm
   create-design: conditional  # agent: ux-designer
 
