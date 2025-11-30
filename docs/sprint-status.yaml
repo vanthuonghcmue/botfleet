@@ -1,0 +1,50 @@
+﻿# Sprint Planning Status — botfleet
+# Sprint 1 focus: Core Data & Auth + Order Intake + Pricing Approval
+
+project: botfleet
+branch: dev
+sprint:
+  name: Sprint 1
+  dates:
+    start: 2025-12-01
+    end: 2025-12-14
+  goals:
+    - Establish auth/RBAC and core schemas
+    - Implement order creation and retrieval
+    - Implement pricing quote and approval flows
+
+stories:
+  selected:
+    - ST-101
+    - ST-102
+    - ST-103
+    - ST-201
+    - ST-202
+    - ST-203
+    - ST-204
+    - ST-205
+  backlog:
+    - ST-301
+    - ST-302
+    - ST-303
+    - ST-401
+    - ST-402
+    - ST-403
+    - ST-404
+    - ST-501
+    - ST-502
+    - ST-503
+    - ST-601
+    - ST-602
+    - ST-603
+    - ST-701
+    - ST-702
+    - ST-703
+    - ST-801
+    - ST-802
+    - ST-803
+
+notes:
+  - Dependencies: Decide framework/runtime, Postgres version
+  - Risk: Auth complexity; mitigate with well-scoped MVP JWT
+  - Prep: Update `architecture.md` with tech choices and token policies
